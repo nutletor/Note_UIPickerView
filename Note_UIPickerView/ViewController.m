@@ -62,6 +62,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+//- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+//{
+//    
+//}
+
 #pragma mark - UIPickerViewDataSource &Delegate
 //设置组件个数
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
@@ -110,9 +115,11 @@
             //以上代码，当同时滚动省市组件时，会造成不同行内容错乱，甚至如果滚动中实时变化的省对应的市的数量大于当前滚动中市的数量，还会造成越位crash
             
             //通过省组件停止滚动时保存的行数查找对应的市信息，便可避免越位crash
-            if (row > [self.cityAry[self.provinceRow] count]) {
+            if (row >= [self.cityAry[self.provinceRow] count]) {
                 return @"";
             }
+//            NSInteger count = [self.cityAry[self.provinceRow] count];
+//            NSInteger index = row < count ? row : count;
             AreaModel * area = self.cityAry[self.provinceRow][row];
             return area.name;
         }
@@ -132,6 +139,11 @@
             self.provinceId = province.idField;
             self.provinceStr = province.name;
             
+//            NSLog(@"%@", pickerView.subviews);
+//            for (UIGestureRecognizer * gesture in pickerView.gestureRecognizers) {
+//                [pickerView removeGestureRecognizer:gesture];
+////                gesture.cancelsTouchesInView = YES;
+//            }
             
             [pickerView reloadComponent:1];
             [pickerView selectRow:0 inComponent:1 animated:YES];
@@ -149,9 +161,11 @@
 //            AreaModel * city = self.cityAry[selectedRow][row];
             //以上代码，同样可能造成越位crash
             
-            if (row > [self.cityAry[self.provinceRow] count]) {
+            if (row >= [self.cityAry[self.provinceRow] count]) {
                 return;
             }
+//            NSInteger count = [self.cityAry[self.provinceRow] count];
+//            NSInteger index = row < count ? row : count;
             AreaModel * city = self.cityAry[self.provinceRow][row];
             self.cityId = city.idField;
             self.cityStr = city.name;
@@ -161,5 +175,7 @@
             break;
     }
 }
+
+//- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(nullable UIView *)view
 
 @end
