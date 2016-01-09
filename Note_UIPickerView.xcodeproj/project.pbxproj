@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BDF76CC1C40F11100399F5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF76CB1C40F11100399F5F /* main.m */; };
+		2BDF76CF1C40F11100399F5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF76CE1C40F11100399F5F /* AppDelegate.m */; };
+		2BDF76D21C40F11100399F5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF76D11C40F11100399F5F /* ViewController.m */; };
+		2BDF76D51C40F11100399F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF76D31C40F11100399F5F /* Main.storyboard */; };
+		2BDF76D71C40F11100399F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF76D61C40F11100399F5F /* Assets.xcassets */; };
+		2BDF76DA1C40F11100399F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF76D81C40F11100399F5F /* LaunchScreen.storyboard */; };
+		2BDF76E51C40F11100399F5F /* Note_UIPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF76E41C40F11100399F5F /* Note_UIPickerViewTests.m */; };
+		2BDF76F01C40F11100399F5F /* Note_UIPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF76EF1C40F11100399F5F /* Note_UIPickerViewUITests.m */; };
+		2BDF76FE1C40F65400399F5F /* areas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF76FD1C40F65400399F5F /* areas.plist */; };
+		2BDF77011C40F68400399F5F /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF77001C40F68400399F5F /* AreaModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BDF76E11C40F11100399F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDF76BF1C40F11100399F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDF76C61C40F11100399F5F;
+			remoteInfo = Note_UIPickerView;
+		};
+		2BDF76EC1C40F11100399F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDF76BF1C40F11100399F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDF76C61C40F11100399F5F;
+			remoteInfo = Note_UIPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BDF76C71C40F11100399F5F /* Note_UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Note_UIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDF76CB1C40F11100399F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BDF76CD1C40F11100399F5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BDF76CE1C40F11100399F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BDF76D01C40F11100399F5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BDF76D11C40F11100399F5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BDF76D41C40F11100399F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BDF76D61C40F11100399F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BDF76D91C40F11100399F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BDF76DB1C40F11100399F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDF76E01C40F11100399F5F /* Note_UIPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Note_UIPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDF76E41C40F11100399F5F /* Note_UIPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note_UIPickerViewTests.m; sourceTree = "<group>"; };
+		2BDF76E61C40F11100399F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDF76EB1C40F11100399F5F /* Note_UIPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Note_UIPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDF76EF1C40F11100399F5F /* Note_UIPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note_UIPickerViewUITests.m; sourceTree = "<group>"; };
+		2BDF76F11C40F11100399F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDF76FD1C40F65400399F5F /* areas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = areas.plist; sourceTree = "<group>"; };
+		2BDF76FF1C40F68400399F5F /* AreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaModel.h; sourceTree = "<group>"; };
+		2BDF77001C40F68400399F5F /* AreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BDF76C41C40F11100399F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF76DD1C40F11100399F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF76E81C40F11100399F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BDF76BE1C40F11100399F5F = {
+			isa = PBXGroup;
+			children = (
+				2BDF76C91C40F11100399F5F /* Note_UIPickerView */,
+				2BDF76E31C40F11100399F5F /* Note_UIPickerViewTests */,
+				2BDF76EE1C40F11100399F5F /* Note_UIPickerViewUITests */,
+				2BDF76C81C40F11100399F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BDF76C81C40F11100399F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF76C71C40F11100399F5F /* Note_UIPickerView.app */,
+				2BDF76E01C40F11100399F5F /* Note_UIPickerViewTests.xctest */,
+				2BDF76EB1C40F11100399F5F /* Note_UIPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BDF76C91C40F11100399F5F /* Note_UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF76CD1C40F11100399F5F /* AppDelegate.h */,
+				2BDF76CE1C40F11100399F5F /* AppDelegate.m */,
+				2BDF76FD1C40F65400399F5F /* areas.plist */,
+				2BDF76FF1C40F68400399F5F /* AreaModel.h */,
+				2BDF77001C40F68400399F5F /* AreaModel.m */,
+				2BDF76D01C40F11100399F5F /* ViewController.h */,
+				2BDF76D11C40F11100399F5F /* ViewController.m */,
+				2BDF76D31C40F11100399F5F /* Main.storyboard */,
+				2BDF76D61C40F11100399F5F /* Assets.xcassets */,
+				2BDF76D81C40F11100399F5F /* LaunchScreen.storyboard */,
+				2BDF76DB1C40F11100399F5F /* Info.plist */,
+				2BDF76CA1C40F11100399F5F /* Supporting Files */,
+			);
+			path = Note_UIPickerView;
+			sourceTree = "<group>";
+		};
+		2BDF76CA1C40F11100399F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF76CB1C40F11100399F5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BDF76E31C40F11100399F5F /* Note_UIPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF76E41C40F11100399F5F /* Note_UIPickerViewTests.m */,
+				2BDF76E61C40F11100399F5F /* Info.plist */,
+			);
+			path = Note_UIPickerViewTests;
+			sourceTree = "<group>";
+		};
+		2BDF76EE1C40F11100399F5F /* Note_UIPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF76EF1C40F11100399F5F /* Note_UIPickerViewUITests.m */,
+				2BDF76F11C40F11100399F5F /* Info.plist */,
+			);
+			path = Note_UIPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BDF76C61C40F11100399F5F /* Note_UIPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDF76F41C40F11100399F5F /* Build configuration list for PBXNativeTarget "Note_UIPickerView" */;
+			buildPhases = (
+				2BDF76C31C40F11100399F5F /* Sources */,
+				2BDF76C41C40F11100399F5F /* Frameworks */,
+				2BDF76C51C40F11100399F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Note_UIPickerView;
+			productName = Note_UIPickerView;
+			productReference = 2BDF76C71C40F11100399F5F /* Note_UIPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BDF76DF1C40F11100399F5F /* Note_UIPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDF76F71C40F11100399F5F /* Build configuration list for PBXNativeTarget "Note_UIPickerViewTests" */;
+			buildPhases = (
+				2BDF76DC1C40F11100399F5F /* Sources */,
+				2BDF76DD1C40F11100399F5F /* Frameworks */,
+				2BDF76DE1C40F11100399F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDF76E21C40F11100399F5F /* PBXTargetDependency */,
+			);
+			name = Note_UIPickerViewTests;
+			productName = Note_UIPickerViewTests;
+			productReference = 2BDF76E01C40F11100399F5F /* Note_UIPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BDF76EA1C40F11100399F5F /* Note_UIPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDF76FA1C40F11100399F5F /* Build configuration list for PBXNativeTarget "Note_UIPickerViewUITests" */;
+			buildPhases = (
+				2BDF76E71C40F11100399F5F /* Sources */,
+				2BDF76E81C40F11100399F5F /* Frameworks */,
+				2BDF76E91C40F11100399F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDF76ED1C40F11100399F5F /* PBXTargetDependency */,
+			);
+			name = Note_UIPickerViewUITests;
+			productName = Note_UIPickerViewUITests;
+			productReference = 2BDF76EB1C40F11100399F5F /* Note_UIPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BDF76BF1C40F11100399F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HuangFei;
+				TargetAttributes = {
+					2BDF76C61C40F11100399F5F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D4X9CN9GC7;
+					};
+					2BDF76DF1C40F11100399F5F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D4X9CN9GC7;
+						TestTargetID = 2BDF76C61C40F11100399F5F;
+					};
+					2BDF76EA1C40F11100399F5F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D4X9CN9GC7;
+						TestTargetID = 2BDF76C61C40F11100399F5F;
+					};
+				};
+			};
+			buildConfigurationList = 2BDF76C21C40F11100399F5F /* Build configuration list for PBXProject "Note_UIPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BDF76BE1C40F11100399F5F;
+			productRefGroup = 2BDF76C81C40F11100399F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BDF76C61C40F11100399F5F /* Note_UIPickerView */,
+				2BDF76DF1C40F11100399F5F /* Note_UIPickerViewTests */,
+				2BDF76EA1C40F11100399F5F /* Note_UIPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BDF76C51C40F11100399F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDF76DA1C40F11100399F5F /* LaunchScreen.storyboard in Resources */,
+				2BDF76FE1C40F65400399F5F /* areas.plist in Resources */,
+				2BDF76D71C40F11100399F5F /* Assets.xcassets in Resources */,
+				2BDF76D51C40F11100399F5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF76DE1C40F11100399F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF76E91C40F11100399F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BDF76C31C40F11100399F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDF77011C40F68400399F5F /* AreaModel.m in Sources */,
+				2BDF76D21C40F11100399F5F /* ViewController.m in Sources */,
+				2BDF76CF1C40F11100399F5F /* AppDelegate.m in Sources */,
+				2BDF76CC1C40F11100399F5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF76DC1C40F11100399F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDF76E51C40F11100399F5F /* Note_UIPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF76E71C40F11100399F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDF76F01C40F11100399F5F /* Note_UIPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BDF76E21C40F11100399F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BDF76C61C40F11100399F5F /* Note_UIPickerView */;
+			targetProxy = 2BDF76E11C40F11100399F5F /* PBXContainerItemProxy */;
+		};
+		2BDF76ED1C40F11100399F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BDF76C61C40F11100399F5F /* Note_UIPickerView */;
+			targetProxy = 2BDF76EC1C40F11100399F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BDF76D31C40F11100399F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDF76D41C40F11100399F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BDF76D81C40F11100399F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDF76D91C40F11100399F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BDF76F21C40F11100399F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BDF76F31C40F11100399F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BDF76F51C40F11100399F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Note_UIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.com.Note-UIPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BDF76F61C40F11100399F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Note_UIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.com.Note-UIPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BDF76F81C40F11100399F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Note_UIPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.com.Note-UIPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Note_UIPickerView.app/Note_UIPickerView";
+			};
+			name = Debug;
+		};
+		2BDF76F91C40F11100399F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Note_UIPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.com.Note-UIPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Note_UIPickerView.app/Note_UIPickerView";
+			};
+			name = Release;
+		};
+		2BDF76FB1C40F11100399F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Note_UIPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.com.Note-UIPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Note_UIPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2BDF76FC1C40F11100399F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Note_UIPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.com.Note-UIPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Note_UIPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BDF76C21C40F11100399F5F /* Build configuration list for PBXProject "Note_UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDF76F21C40F11100399F5F /* Debug */,
+				2BDF76F31C40F11100399F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDF76F41C40F11100399F5F /* Build configuration list for PBXNativeTarget "Note_UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDF76F51C40F11100399F5F /* Debug */,
+				2BDF76F61C40F11100399F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDF76F71C40F11100399F5F /* Build configuration list for PBXNativeTarget "Note_UIPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDF76F81C40F11100399F5F /* Debug */,
+				2BDF76F91C40F11100399F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDF76FA1C40F11100399F5F /* Build configuration list for PBXNativeTarget "Note_UIPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDF76FB1C40F11100399F5F /* Debug */,
+				2BDF76FC1C40F11100399F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BDF76BF1C40F11100399F5F /* Project object */;
+}
